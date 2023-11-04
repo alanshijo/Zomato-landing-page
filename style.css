@@ -93,3 +93,58 @@ header .header {
   border: none;
   outline: none;
 }
+.section-1 {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 28px;
+}
+.section-1 .card {
+  width: 240px;
+  height: 240px;
+  margin: 12px;
+  border-radius: 12px;
+  border: 2px solid #e9ecef;
+}
+
+.section-1 .card img {
+  width: 100%;
+  height: 80%;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.section-1 .card .card-footer {
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: lighter;
+}
+.section-2 {
+  width: 80vw;
+  margin: 48px auto;
+}
+
+.section-2 .section-2-heading {
+  font-size: 1.8em;
+  margin-bottom: 24px;
+}
+.section-2 .section-2-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 48px;
+}
+
+.section-2 .place {
+  border-radius: 12px;
+  box-shadow: 0px 6px 14px #dee2e6;
+  padding: 18px;
+  width: 360px;
+}
+
+.section-2 .place .place-heading {
+  font-size: 1.3em;
+  margin-bottom: 8px;
+}
+.section-2 .place .place-numbers {
+  color: #adb5bd;
+}

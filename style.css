@@ -41,6 +41,13 @@ header nav ul {
   align-items: center;
   font-weight: 500;
 }
+nav li a:hover {
+  color: #fa5252;
+}
+#getApp:hover {
+  background-color: #fff;
+  color: #fa5252;
+}
 header .header {
   margin-top: 48px;
   display: flex;
@@ -146,5 +153,36 @@ header .header {
   margin-bottom: 8px;
 }
 .section-2 .place .place-numbers {
+  color: #adb5bd;
+}
+
+.section-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 48px;
+}
+.section-3 .mockup-img img {
+  height: 480px;
+}
+.section-3 .getapp {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.section-3 .getapp h3 {
+  font-size: 2.5em;
+}
+.section-3 .getapp p {
+  font-size: 1.3em;
+  color: #868e96;
+}
+.section-3 .getapp img {
+  width: 200px;
+}
+
+footer p {
+  text-align: center;
+  margin: 24px auto;
   color: #adb5bd;
 }
